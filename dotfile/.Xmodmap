@@ -1,0 +1,6 @@
+clear lock
+clear control
+add lock = Control_L
+add control = Caps_Lock
+keycode 37 = Caps_Lock
+keycode 66 = Control_L

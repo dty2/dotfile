@@ -1,0 +1,22 @@
+[window] 
+	position = "none"
+	padding = { x = 0, y = 0 }
+	dynamic_padding = true
+	opacity = 0.5
+
+[font]
+	normal = { family = "IBM 3270", style = "regular" }
+	offset = { x = 0, y = 1}
+	size = 12.5
+
+[scrolling]
+	history = 10000
+
+[colors]
+
+	[colors.primary]
+	background = "0x2a3238"
+
+[cursor]
+	style = { shape = "Block", blinking = "On" }
+	blink_timeout = 0
