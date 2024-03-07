@@ -45,13 +45,13 @@ i3lock \
   --pass-media-keys \
   --pass-screen-keys \
   --pass-volume-keys \
-  --time-font="Hack" \
+  --time-font="IBM3270" \
   --time-size=32 \
   --date-font="思源黑体 CN" \
   --date-size=22 \
-  --layout-font="Hack" \
+  --layout-font="IBM3270" \
   --layout-size=22 \
-  --verif-font="Hack" \
+  --verif-font="IBM3270" \
   --verif-size=22 \
-  --wrong-font="Hack" \
+  --wrong-font="IBM3270" \
   --wrong-size=22 \
