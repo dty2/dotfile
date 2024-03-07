@@ -28,18 +28,17 @@ client.unfocused  white white white white
 
 # set float
 floating_modifier $mod
-gaps inner 8
+gaps inner 10
 
 #===============#
 #    keyboard   #
 #===============#
 
 bindsym $mod+p exec --no-startup-id flameshot gui
-bindsym $mod+r exec --no-startup-id rofi -show drun
+bindsym $mod+r exec --no-startup-id ~/.config/rofi/launchers/type-3/launcher.sh 
 
 bindsym Alt_R exec --no-startup-id bash ~/.config/i3/toggletouchpad
-#bindsym $mod+o exec --no-startup-id bash ~/.config/i3/lock 
-#bindsym $mod+ctrl+space exec --no-startup-id bash ~/.config/scripts/server.sh
+bindsym $mod+o exec --no-startup-id bash ~/.config/i3/lock 
 
 # Audio
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%-
