@@ -37,7 +37,7 @@ gaps bottom 8
 #===============#
 
 bindsym $mod+p exec --no-startup-id flameshot gui
-bindsym $mod+r exec --no-startup-id ~/.config/rofi/launchers/type-3/scripts/launcher.sh 
+bindsym $mod+r exec --no-startup-id ~/.config/rofi/launchers/type-3/launcher.sh 
 
 bindsym Alt_R exec --no-startup-id bash ~/.config/i3/scripts/toggletouchpad.sh
 bindsym $mod+o exec --no-startup-id bash ~/.config/i3/scripts/lock.sh
