@@ -2,14 +2,22 @@
 各种配置文件与脚本
 .  
 ├── dotfile  
-│   ├── alacritty-config  
-│   ├── i3-config  
+│   ├── alacritty  
+│   │   └── alacritty.toml  
+│   ├── i3  
+│   │   ├── boot.sh  
+│   │   ├── config  
+│   │   ├── lock.sh  
+│   │   └── toggletouchpad.sh  
 │   ├── keyboard-config  
-│   ├── picom-config  
-│   ├── polybar-config  
-│   ├── vim-config  
-│   └── zsh-config  
-└── script  
-    ├── i3lock-script  
-    ├── i3-script  
-    └── polybar-script  
+│   ├── picom  
+│   │   └── picom.conf  
+│   └── polybar  
+│       ├── config.ini  
+│       ├── modules.ini  
+│       └── scripts  
+│           ├── backlight.sh  
+│           ├── fcitx5.sh  
+│           ├── network.sh  
+│           └── time.sh  
+└── README.md  
