@@ -6,7 +6,7 @@ set $mod Mod1
 #============#
 #    exec    #
 #============#
-exec_always --no-startup-id ~/.config/i3/boot.sh
+exec_always --no-startup-id ~/.config/i3/scripts/boot.sh
 exec_always --no-startup-id fcitx5
 exec_always --no-startup-id variety
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
@@ -37,10 +37,10 @@ gaps bottom 8
 #===============#
 
 bindsym $mod+p exec --no-startup-id flameshot gui
-bindsym $mod+r exec --no-startup-id ~/.config/rofi/launchers/type-3/launcher.sh 
+bindsym $mod+r exec --no-startup-id ~/.config/rofi/launchers/type-3/scripts/launcher.sh 
 
-bindsym Alt_R exec --no-startup-id bash ~/.config/i3/toggletouchpad.sh
-bindsym $mod+o exec --no-startup-id bash ~/.config/i3/lock.sh
+bindsym Alt_R exec --no-startup-id bash ~/.config/i3/scripts/toggletouchpad.sh
+bindsym $mod+o exec --no-startup-id bash ~/.config/i3/scripts/lock.sh
 
 # Audio
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%-
