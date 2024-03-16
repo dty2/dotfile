@@ -1,6 +1,6 @@
 ### 执着的配置文件
 配置文件与脚本  
-.
+.  
 ├── alacritty  
 │   └── alacritty.toml  
 ├── i3  
