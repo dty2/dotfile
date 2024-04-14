@@ -1,5 +1,6 @@
 #!/bin/bash 
 
+# 开机初始化桌面
 polybar_config="$HOME/.config/polybar"
 
 boot_polybar() {

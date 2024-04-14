@@ -21,26 +21,26 @@ font pango:IBM3270,10
 #=============#
 default_border pixel 1
 default_floating_border pixel 1
-client.background white
-client.focused white white white white
-client.focused_inactive white white white white
-client.unfocused  white white white white
+client.background #83A598 
+client.focused #83A598 #8adabc #83A598 #83A598
+client.focused_inactive #83A598 #83A598 #83A598 #83A598 
+client.unfocused  #83A598 #83A598 #83A598 #83A598
 
 # set float
 floating_modifier $mod
-gaps inner 10
-gaps top 32
+gaps inner 8
+gaps top 30
 gaps bottom 0
 
 #===============#
 #    keyboard   #
 #===============#
 
+bindsym $mod+r exec --no-startup-id ~/.config/rofi/launcher/launcher.sh 
+bindsym $mod+o exec --no-startup-id ~/.config/rofi/power/powermenu.sh
 bindsym $mod+p exec --no-startup-id flameshot gui
-bindsym $mod+r exec --no-startup-id ~/.config/rofi/launchers/type-3/launcher.sh 
 
 bindsym Alt_R exec --no-startup-id bash ~/.config/i3/scripts/toggletouchpad.sh
-bindsym $mod+o exec --no-startup-id bash ~/.config/i3/scripts/lock.sh
 
 # Audio
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%-

@@ -1,0 +1,8 @@
+TIMING:
+    TAP_MILLISEC: 400 # 单击时长判定,小于400判断为单击
+    DOUBLE_TAP_MILLISEC: 150 # 可选配置
+
+MAPPINGS:
+    - KEY: KEY_CAPSLOCK
+      TAP: KEY_ESC
+      HOLD: KEY_LEFTCTRL

@@ -12,7 +12,7 @@ magenta='#ff79c6'
 blue='#6272a4'
 cyan='#8be9fd'
 green='50fa7b'
-
+sleep 0.5; \
 i3lock \
   --insidever-color=$selection$alpha \
   --insidewrong-color=$selection$alpha \
